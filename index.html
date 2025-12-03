@@ -11,6 +11,8 @@
     <link href="assets/imgs/apple-touch-icon.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -27,10 +29,13 @@
                     <a class="link" href="#about">About</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
+                    <a class="link" href="#resume">Resume</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#highlight-projects">Projects</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#certificates">Certificates</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#testmonial">Testmonial</a>
@@ -52,10 +57,10 @@
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="up">HI! I am </span>
-                <span class="down">Thoriq Nadaghoist Suharyadi</span>
+                <span class="up" data-aos="fade-up" data-aos-delay="100">HI! I am </span>
+                <span class="down" data-aos="fade-up" data-aos-delay="200">Thoriq Nadaghoist Suharyadi</span>
             </h1>
-            <p class="header-subtitle">INFORMATION SYSTEM SECURITY</p>
+            <p class="header-subtitle" data-aos="fade-up" data-aos-delay="300">INFORMATION SYSTEM SECURITY</p>
         </div>
     </header><!-- end of page header -->
 
@@ -64,7 +69,7 @@
         <!-- container -->
         <div class="container text-center">
             <!-- about1 section -->
-            <section class="section" id="about">
+            <section class="section" id="about" data-aos="fade-up">
                 <div class="container text-center">
                     <p class="section-subtitle">Who Am I?</p>
                     <h6 class="section-title mb-1">About Me</h6>
@@ -74,33 +79,53 @@
             </section>
            <!-- about wrapper -->
             <div class="about">
-                <div class="about-img-holder">
+                <div class="about-img-holder" data-aos="fade-up">
                     <img src="assets/imgs/thoriq-bg.jpeg" class="about-img" alt="Profile Picture">
                 </div>
-                <div class="about-caption">
+                <div class="about-caption" data-aos="fade-up">
                     <div class="mt-5">
-                        <h4 class="mb-2">Web Developer & Cloud Computing</h4>
+                        <h4 class="mb-2">Web Developer & Cloud Enthusiast</h4>
                     </div>
                     <p>I am a Information System Security graduate with experience in web development, network security, system administration and penetration tester. I am skilled in web development & tester, cloud computing, and managing documents with accuracy and professionalism.</p>
                     <div class="row">
                         <div class="col-lg-6">
-                            <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15 July 2003</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>vynixxx.github.io/portfolio-thoriq/</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengkalis Regency, Riau, Indonesia</span></li>
-                            </ul>
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Birthday:</strong> <span>15 July 2003</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Website:</strong> <span>vynixxx.github.io/portfolio-thoriq/</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>City:</strong> <span>Bengkalis Regency, Riau, Indonesia</span>
+                            </div>
                         </div>
+
                         <div class="col-lg-6">
-                            <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Applied Science</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>vynixjob@gmail.com</span></li>
-                            </ul>
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Age:</strong> <span>22</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Degree:</strong> <span>Bachelor of Applied Science</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="bi bi-chevron-right"></i>
+                                <strong>Email:</strong> <span>vynixjob@gmail.com</span>
+                            </div>
                         </div>
+
                     </div>
                    
                     <!-- Language Skills -->
-                    <div class="mt-4">
+                    <div class="mt-2" data-aos="fade-up">
                         <h5 class="mb-3">Language Skills</h5>
 
                         <div class="lang-box mb-3">
@@ -135,7 +160,7 @@
 
     <!-- service section -->
     <section class="section" id="service">
-        <div class="container text-center">
+        <div class="container text-center" data-aos="fade-up">
             <p class="section-subtitle">What I Do?</p>
             <h6 class="section-title mb-6">Services</h6>
             <!-- row -->
@@ -182,9 +207,9 @@
 
     <!-- skills section -->
     <section class="section bg-light" id="skills">
-        <div class="container text-center">
-            <p class="section-subtitle">What I Know?</p>
-            <h6 class="section-title mb-6">Programming & OS Skills</h6>
+        <div class="container text-center"> 
+            <p class="section-subtitle" data-aos="fade-up">What I Know?</p>
+            <h6 class="section-title mb-6" data-aos="fade-up">Programming & OS Skills</h6>
 
             <div class="row justify-content-center">
                 <!-- Programming Languages -->
@@ -251,9 +276,9 @@
     
     <!-- Resume Section -->
     <section class="section" id="resume">
-        <div class="container text-center">
-            <p class="section-subtitle">My Journey</p>
-            <h6 class="section-title mb-4">Resume</h6>
+        <div class="container text-center" data-aos="fade-up">
+            <p class="section-subtitle" data-aos="fade-up">My Journey</p>
+            <h6 class="section-title mb-4" data-aos="fade-up">Resume</h6>
 
             <div class="row justify-content-center">
 
@@ -391,11 +416,11 @@
     
     <!-- highlight project section -->
     <section class="section bg-light" id="highlight-projects">
-    <div class="container text-center">
-        <p class="section-subtitle">Showcase</p>
-        <h6 class="section-title mb-6">Highlighted Projects</h6>
+    <div class="container text-center" data-aos="fade-up">
+        <p class="section-subtitle" data-aos="fade-up">Showcase</p>
+        <h6 class="section-title mb-6" data-aos="fade-up">Highlighted Projects</h6>
 
-        <div class="row">
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
         <!-- Website Development -->
         <div class="col-md-4 mb-4">
             <div class="card shadow-lg rounded-3 h-100">
@@ -404,34 +429,34 @@
                 <h5 class="card-title">Website Development</h5>
                 <p class="card-text">
                 Development of dynamic and responsive websites using 
-                <b>HTML, PHP, and Laravel</b> for real-world applications.
+                Bootstrap, CSS, and Laravel for real-world applications.
                 </p>
             </div>
             </div>
         </div>
 
         <!-- Server Maintenance -->
-        <div class="col-md-4 mb-4">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card shadow-lg rounded-3 h-100">
             <div style="height:200px;background:url('assets/imgs/netsec.png') center/cover no-repeat;border-radius:8px 8px 0 0;"></div>
             <div class="card-body">
                 <h5 class="card-title">Server Maintenance & Security</h5>
                 <p class="card-text">
                 Experience in configuring and maintaining Linux-based servers, 
-                implementing <b>security hardening, penetration testing, and monitoring</b>.
+                implementing security hardening, penetration testing, and monitoring.
                 </p>
             </div>
             </div>
         </div>
 
         <!-- Cloud Server -->
-        <div class="col-md-4 mb-2">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card shadow-lg rounded-3 h-100">
             <div style="height:200px;background:url('assets/imgs/nas-server.png') center/cover no-repeat;border-radius:8px 8px 0 0;"></div>
             <div class="card-body">
                 <h5 class="card-title">Cloud Server Deployment</h5>
                 <p class="card-text">
-                Research and implementation of <b>Set-Top Box (STB) as NAS and hosting server</b>, 
+                Research and implementation of Set-Top Box as NAS and hosting server, 
                 enabling affordable cloud storage and web hosting solutions.
                 </p>
             </div>
@@ -450,7 +475,7 @@
             cursor: pointer;
         }
     </style>
-    <section class="section bg-white" id="certificates">
+    <section class="section bg-white" id="certificates" data-aos="fade-up">
         <div class="container text-center">
             <p class="section-subtitle">Achievements</p>
             <h6 class="section-title mb-6">Certificates, Trainings & Seminars</h6>
@@ -458,7 +483,7 @@
             <div class="row">
 
                 <!-- CARD 1 -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img" 
                             style="background:url('assets/imgs/sert/SERTIKOM.jpg') center/cover no-repeat;"
@@ -473,7 +498,7 @@
                 </div>
 
                 <!-- CARD 2 -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img" 
                             style="background:url('assets/imgs/sert/DevOp.png') center/cover no-repeat;"
@@ -488,7 +513,7 @@
                 </div>
 
                 <!-- CARD 3 -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img" 
                             style="background:url('assets/imgs/sert/Belajar-Dasar-AI.png') center/cover no-repeat;"
@@ -502,8 +527,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 4 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="250">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/jarkom.png') center/cover no-repeat;"
@@ -517,8 +542,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 5 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="300">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/ethicalhacker.png') center/cover no-repeat;"
@@ -532,8 +557,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 6 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="350">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/cloudComp.png') center/cover no-repeat;"
@@ -547,8 +572,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 7 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="400">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/pemrograman.png') center/cover no-repeat;"
@@ -562,8 +587,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 8 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="450">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/datapribadi.png') center/cover no-repeat;"
@@ -577,8 +602,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 9 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="500">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/labvirt.png') center/cover no-repeat;"
@@ -592,8 +617,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 10 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="150">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/informa.png') center/cover no-repeat;"
@@ -607,8 +632,8 @@
                     </div>
                 </div>
 
-                <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <!-- CARD 11 -->
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="200">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/medsos.png') center/cover no-repeat;"
@@ -623,7 +648,7 @@
                 </div>
 
                 <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="250">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/datapy.png') center/cover no-repeat;"
@@ -638,7 +663,7 @@
                 </div>
 
                 <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="100">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/cyber-Smart.png') center/cover no-repeat;"
@@ -653,7 +678,7 @@
                 </div>
 
                 <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="150">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/cicd.png') center/cover no-repeat;"
@@ -668,7 +693,7 @@
                 </div>
 
                 <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="200">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/poltek-malay.png') center/cover no-repeat;"
@@ -683,7 +708,7 @@
                 </div>
 
                 <!-- CARD -->
-                <div class="col-md-4 mb-2">
+                <div class="col-md-4 mb-2" data-aos="fade-up" data-aos-delay="100">
                     <div class="card shadow-lg rounded-3 h-100">
                         <div class="cert-img"
                             style="background:url('assets/imgs/sert/euphoria.jpeg') center/cover no-repeat;"
@@ -727,7 +752,7 @@
 
     <!-- project section -->
     <section class="section" id="project">
-        <div class="container text-center">
+        <div class="container text-center" data-aos="fade-up">
             <p class="section-subtitle">Want to See More?</p>
             <h6 class="section-title mb-4">Explore My GitHub</h6>
             
@@ -735,10 +760,10 @@
                 <div class="col-md-8">
                     <p class="mb-4">
                         On my GitHub, I share various projects ranging from 
-                        <b>web development</b> using PHP and Laravel, 
-                        <b>mobile application development</b> with Dart & Flutter, 
-                        to <b>security and data-related projects</b> such as cryptography-based file sharing and email spam analysis with big data. 
-                        You can also find <b>Python-based applications</b> and other academic works. 
+                        web development using Bootstrap and Laravel, 
+                        mobile application development with Dart & Flutter, 
+                        to security and data-related projects such as cryptography-based file sharing and email spam analysis with big data. 
+                        You can also find Python-based applications and other academic works. 
                         Feel free to explore my repositories to see more of my learning journey and experiments.
                     </p>
                     <a href="https://github.com/Vynixxx" target="_blank" 
@@ -771,7 +796,7 @@
 
     <!-- testimonial section -->
     <section class="section" id="testmonial">
-        <div class="container text-center">
+        <div class="container text-center" data-aos="fade-up">
             <p class="section-subtitle">What Think Client About Me ?</p>
             <h6 class="section-title mb-6">Testmonial</h6>
 
@@ -809,7 +834,7 @@
 
     <!-- contact section -->
     <section class="section bg-light" id="contact">
-        <div class="container text-center">
+        <div class="container text-center" data-aos="fade-up">
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-6">Contact Me</h6>
 

@@ -292,6 +292,23 @@ input[type="month"] {
   -webkit-appearance: listbox;
 }
 
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.info-item i {
+    margin-right: 8px;
+    color: #0d6efd;
+}
+
+.info-item strong {
+    width: 110px;   /* membuat semua label rata kiri */
+    display: inline-block;
+}
+
 .lang-box {
     padding: 12px 14px;
 }
